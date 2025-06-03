@@ -4,8 +4,10 @@ The code uses to wirite the thesis "Flow Tracing and Nodal Cost Allocation In La
 USE:
 To use this code run Main2 script. This Yields the reuslts for the Large-N network.
 To obtain results for Small-N network, run the Smalln Script subsequent to the Large-N script.
+Alternatively, feel free to create your own pipeline.
 
-Various forms of these scripts has been used throughout the witing project, most using parralelization on various levels.
+
+Various forms of these scripts has been used throughout the project, most using parralelization on various levels. Feel free to ask if alternative versiosn exists that suits your needs.
 
 Depending on Computational power and choice of layouts etc. it will take around 6-8 hours on a Regular pc. Leaving out the GAS-Layout will reduce this significantly.
 Consider using parralelizing over the various layouts. This reduces the running time significantly.
