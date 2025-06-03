@@ -308,6 +308,11 @@ if __name__ == '__main__':
     betas = np.array([1.0])
     pipelinesaver(data, layout_schemes, balancing_schemes, betas, save_path=save_path, plot_path=plot_path)
 
+    layout_schemes = ['GAS']
+    balancing_schemes = ['Global', 'Nodal']
+    betas = np.array([1.0])
+    pipelinesaver(data, layout_schemes, balancing_schemes, betas, save_path=save_path, plot_path=plot_path)
+
 #%% Correcting Errors in LCOE 
 pipeline_results = load_results_pickle(save_path=save_path)
 Correct_pipeline_results = Refileing(pipeline_results, data, save_path, plot_path)
